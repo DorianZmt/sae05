@@ -1,0 +1,248 @@
+body{
+    padding: 0px;
+    background-color: beige;
+    font-family: Verdana,arial;
+}
+
+#container{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border: solid 1px gray;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px 10px 30px 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.navbar{
+    border-bottom: solid 1px gray;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler{
+    margin-left: auto;
+}
+
+.nav-item{
+    height: 45px;
+}
+
+.en_tete_section{
+    margin: 20px 20px 10px 20px;
+    display: flex;
+}
+
+.en_tete_section h1{
+    font-size: 25px;
+    text-align: end;
+    margin: 25px 0px 25px 0px;
+    color: #FF9900;
+}
+
+section{
+    padding: 20px;
+}
+section ul{
+    list-style: none;
+}
+
+.en_tete_section p{
+    font-size: 15px;
+    text-align: end;
+}
+
+#img_iut5{
+    width: 200%;
+    margin: 0px 20px 10px 30px;
+    float: left;
+}
+#image_info{
+    width: 60%;
+    margin: 30px;
+}
+#lien_sae{
+    text-decoration: none;
+    color: chocolate;
+}
+#lien_apres{
+    text-decoration: none;
+    color:crimson;
+}
+#titre_apres{
+    color:crimson;
+}
+.titre_contact{
+    color: #FF9900;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#info_contact{
+    width: 30%;
+}
+#form_contact{
+    width: 70%;
+}
+#info_contact h2{
+    font-size: 25px;
+}
+#info_contact p{
+    font-size: 15px;
+}
+
+.tableau_horaires{
+    margin: 50px 0px 50px 0px;
+}
+.tableau_horaires h2{
+    text-align: center;
+    font-size: 120%;
+}
+
+#titre_sae{
+    color: chocolate;
+}
+
+
+.logo_iut_noir{
+    width: 30%;
+    margin-left: 10px;
+}
+
+.titre_info{
+    color: rgb(105, 201, 240);
+}
+.titre_mmi{
+    color: rgb(167, 49, 92);
+}
+#icone_info{
+    color: rgb(40, 177, 226);
+}
+#icone_mmi{
+    color: rgb(139, 20, 63);
+}
+
+.lien_but{
+    text-decoration: none;
+}
+#lien_butinfo{
+    color: rgb(40, 177, 226);
+}
+#lien_butmmi{
+    color: rgb(139, 20, 63);
+}
+#titre_info_but{
+    text-align: center;
+}
+
+.glossaire{
+    color: #FF9900;
+}
+
+#titre_glossaire{
+    text-align: center;
+}
+
+article{
+    margin: 15px;
+}
+
+.competence-1{
+    color: #d08a77;
+}
+.competence-2{
+    color: #ff6f4c;
+}
+.competence-3{
+    color: #fdcf41;
+}
+.competence-4{
+    color: #91ae4f;
+}
+.competence-5{
+    color: #5770be;
+}
+.competence-6{
+    color: #a26859;
+}
+.competence{
+    margin: 80px 0px 80px 0px;
+}
+.competence h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid 1px gray;
+    color:white;
+    background-color: rgb(29, 29, 29);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer p{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .en_tete_section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .formation{
+        text-align: center;
+    }
+
+    .en_tete_section h1,.en_tete_section p{
+        text-align: center;
+    }    
+    #img_iut5{
+        width: 80%;
+        margin: 0px 0px 30px 0px;
+    }
+    .logo_iut_noir{
+        width: 50%;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+    }
+    #info_contact{
+        width: 100%;
+    }
+    #form_contact{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #container{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: none;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    footer{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
