@@ -5,7 +5,7 @@
 }
 
 .cardiut {
-    margin-top: 250px;
+    margin-top: 100px;
     position: relative;
     width: 350px;
     height: 190px;
@@ -13,6 +13,11 @@
     border-radius: 30px;
     box-shadow: 0 0 25px black;
     transition: .5s;
+    margin-inline: auto;
+}
+ 
+#informatique {
+    float: left;
 }
 
 .cardiut:hover {
@@ -119,6 +124,10 @@
     background: #ff5f96;
     color: #ffff;
     cursor: pointer;
+}
+
+#btninfo {
+    background: #2540ac;
 }
 
 .cardiut .content .details .actionBtn button:nth-child(2) {
