@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="contact.css"/>
     <link rel="stylesheet" href="style.css"/>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -23,7 +24,12 @@
           <div class="collapse navbar-collapse">
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-              <a class="nav-link" href="but.html">But</a>
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">But</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Compétences</a></li>
+              <li><a class="dropdown-item" href="#">Parcours</a></li>
+              <li><a class="dropdown-item" href="#">.</a></li>
+            </ul>
               <a class="nav-link" href="sae.html">SAE</a>
               <a class="nav-link" href="debouche.html">Débouchés</a>
               <a class="nav-link active" href="">Contact</a>
@@ -31,4 +37,20 @@
           </div>
         </div>
       </nav>
+      <section>
+        <form action="send.html">
+          <h1>Nous Contacter</h1>
+
+          <input type="text" name="name" id="name" placeholder="Name" required>
+
+          <input type="email" name="email" id="email" placeholder="Email" required>
+          
+          <textarea name="textBox" id="name" cols="35" rows="8" placeholder="Type here..." required></textarea>
+
+          <input type="submit" value="Send">
+
+        </form>      
+      </section>
+
+
 </body>
