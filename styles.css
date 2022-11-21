@@ -21,8 +21,10 @@ body {
 }
 
 .modal{
-    display: block;
+    display: none;
     position: absolute;
+    height: 700PX;
+    width:600PX;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -37,7 +39,7 @@ body {
 
 @keyframes modalOpening{
     from{
-        opacity: 0;
+        opacity: 0%;
     }
 
     to{
@@ -46,12 +48,13 @@ body {
 }
 
 #open {
+    margin-top:20px;
     position: absolute;
     top: 10%;
     left: 7%;
-    transform: translate(-50%, -50%);
+    transform: translate(-45%, -45%);
     padding: 20px 20px;
-    background-color: rgb(0, 0, 0, 0.157);
+    background-color: rgba(245, 235, 235, 0.157);
     border: 3px solid #000;
     font-weight:800;
     text-transform: uppercase;
