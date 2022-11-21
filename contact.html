@@ -2,55 +2,81 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-    <link rel="stylesheet" href="contact.css"/>
-    <link rel="stylesheet" href="style.css"/>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <title>Site d'Arles - IUT Aix-Marseille - SAE</title>
+  <title>Site d'Arles - IUT Aix-Marseille - SAE</title>
 </head>
 
 <body>
-    <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">But</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Compétences</a></li>
-              <li><a class="dropdown-item" href="#">Parcours</a></li>
-              <li><a class="dropdown-item" href="#">.</a></li>
-            </ul>
-              <a class="nav-link" href="sae.html">SAE</a>
-              <a class="nav-link" href="debouche.html">Débouchés</a>
-              <a class="nav-link active" href="">Contact</a>
-            </div>
-          </div>
+  <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+          <a class="nav-link" href="but.html">But</a>
+          <a class="nav-link" href="sae.html">SAE</a>
+          <a class="nav-link" href="debouche.html">Débouchés</a>
+          <a class="nav-link active" href="">Contact</a>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-sm-9">
       <section>
         <form action="send.html">
-          <h1>Nous Contacter</h1>
+          <h1>Contacter-Nous</h1>
 
           <input type="text" name="name" id="name" placeholder="Name" required>
 
           <input type="email" name="email" id="email" placeholder="Email" required>
-          
+
           <textarea name="textBox" id="name" cols="35" rows="8" placeholder="Type here..." required></textarea>
 
           <input type="submit" value="Send">
 
-        </form>      
+        </form>
       </section>
+    </div>
+    <div class="col-sm-3">
+      <div id="info_contact">   
+                <article>
+                    <h2 class="titre_contact">Contacts Département Informatique Arles </h2>
+                    <p>Secrétariat pédagogique : Anaïs Alazard </p>
+                    <p><i class="fas fa-phone"></i> +33 (0)4 13 55 21 70/90</p>
+                    <p><i class="fas fa-location-arrow"></i> Rue Raoul Follereau -  BP 90178 13637 Arles cedex</p>
+                </article>
+                <article>
+                    <h2 class="titre_contact">Scolarité site d'Arles</h2>
+                    <p>Référente scolarité : Myriam Claveirolly</p>
+                    <p><i class="fas fa-phone"></i> 04-13-55-21-87</p>
+                </article>
+                <article>
+                    <h2 class="titre_contact">Pôle Entreprises et Communication </h2>
+                    <p>Contact : Nathalie Vallicari Responsable du Pôle Entreprises et Communication</p>
+                    <p><i class="fas fa-envelope"></i> nathaly.vallicari@univ-amu.fr</p>
+                    <p><i class="fas fa-phone"></i> +33 (0)4 13 55 21 63</p>
+                </article>
+                <article>
+                    <h2 class="titre_contact">Formation continue & Alternance </h2>
+                    <p> Contact formation continue et alternance : Nathalie Vallicari Responsable du Pôle Entreprises et Communication</p>
+                    <p><i class="fas fa-envelope"></i> nathaly.vallicari@univ-amu.fr</p>
+                    <p><i class="fas fa-phone"></i> +33 (0)4 13 55 21 63</p>
+                </article>
+            </div>
+    </div>
 
+  </div>
 
 </body>
