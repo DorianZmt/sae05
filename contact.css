@@ -5,14 +5,38 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#tout {
+    background-color: rgb(242, 242, 242);
+}
+.titre_contact{
+    color: #FF9900;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#info_contact{
+    width: 70%;
+}
+#form_contact{
+    width: 70%;
+}
+#info_contact h2{
+    font-size: 25px;
+}
+#info_contact p{
+    font-size: 15px;
+}
+
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(242, 242, 242);
+    height: 100 vh;
+    width: 100%; 
 }
 
 h1 {
