@@ -50,8 +50,6 @@ body {
 #open {
     margin-top:20px;
     position: absolute;
-    top: 10%;
-    left: 7%;
     transform: translate(-45%, -45%);
     padding: 20px 20px;
     background-color: rgba(245, 235, 235, 0.157);
