@@ -18,41 +18,63 @@
 <body>
     <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="">Accueil</a>
-              <a class="nav-link" href="but.html">But</a>
-              <a class="nav-link" href="sae.html">SAE</a>
-              <a class="nav-link" href="debouche.html">Débouchés</a>
-              <a class="nav-link" href="contact.html">Contact</a>
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="offcanvasNavbar">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            But
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Compétences</a></li>
+                            <li><a class="dropdown-item" href="#">Parcours</a></li>
+                        </ul>
+                    </li>
+
+                    <a class="nav-link" href="sae.html">SAE</a>
+                    <a class="nav-link" href="debouche.html">Débouchés</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
-          </div>
         </div>
-      </nav>
-   
-      <div style="background-color: rgba(255, 255, 255)">
-         
+    </nav>
+
+    <div style="background-color: rgba(255, 255, 255)">
+
         <div class="overlay"></div>
 
-    <button id="open">Définition</button>
-    <div class="modal">
-        <h5 class="modal-title">Qu'est-ce qu'une compétence/situations professionnelles?</h5>
-        <p>Une compétence est un « savoir-agir complexe, prenant appui sur la mobilisation et la combinaison efficaces d’une variété
-            de ressources à l’intérieur d’une famille de situations » (Tardif, 2006). Les ressources désignent ici les savoirs, savoir-faire et
-            savoir-être dont dispose un individu, et qui lui permettent de mettre en œuvre la compétence.</p>
-        <p style="margin-top:20px"> Les situations professionnelles réfèrent aux contextes dans lesquels les compétences sont mises en jeu. Ces situations
-            varient selon la compétence ciblée.Les niveaux de chaque compétence forment peuvent, selon le type de B.U.T. proposé, être constitutifs de un, plusieurs ou
-            tous les parcours.</p>
-        <button id="close">X</button>
-    </div>
+        <div id="titre">
+            <div class="divider"></div>
+            <div class="heading">
+                <h2 id="animation-title">LES COMPETENCES</h2>
+            </div>
+        </div>
 
-    <script src="./app.js"></script>
-
-    <h3 id="animation-title" style="text-align:center"><strong>LES COMPETENCES</strong></h3>
+        <div id="definition">
+            <button id="open">Définition</button>
+            <div class="modal">
+                <h5 class="modal-title">Qu'est-ce qu'une compétence/situations professionnelles?</h5>
+                <p>Une compétence est un « savoir-agir complexe, prenant appui sur la mobilisation et la combinaison
+                    efficaces d’une variété
+                    de ressources à l’intérieur d’une famille de situations » (Tardif, 2006). Les ressources désignent ici
+                    les savoirs, savoir-faire et
+                    savoir-être dont dispose un individu, et qui lui permettent de mettre en œuvre la compétence.</p>
+                <p style="margin-top:20px"> Les situations professionnelles réfèrent aux contextes dans lesquels les
+                    compétences sont mises en jeu. Ces situations
+                    varient selon la compétence ciblée.Les niveaux de chaque compétence forment peuvent, selon le type de
+                    B.U.T. proposé, être constitutifs de un, plusieurs ou
+                    tous les parcours.</p>
+            </div>
+            <button id="close">X</button>
+            <script src="./app.js"></script>
+        </div>
+        
     <h4 style="text-align:center">6 compétences que vont acquérir les étudiants en BUT</h4>
  
         <div class="container text-center">
