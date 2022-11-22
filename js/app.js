@@ -15,3 +15,9 @@ closeBtn.addEventListener("click",() =>{
     overlay.style.opacity="0%";
 })
 
+var typed = new Typed(".auto-type",{
+    string: ["Concepteur-développeur d'applications","DevOps","Lead developer","Tech lead","Testeur"],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+})
