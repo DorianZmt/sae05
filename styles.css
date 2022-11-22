@@ -16,7 +16,8 @@ body {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.536);
     opacity: 0%;
-    height: 100%;
+    top: -20px;
+    height: 110%;
     width:100%;
 }
 
