@@ -1,0 +1,200 @@
+.navbar {
+    background-color: #0066cc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.dropdown-menu {
+    margin: auto;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #0066cc;
+    max-width: 40px;
+}
+
+.carousel-indicators>button {
+    border-radius: 50%;
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 6px;
+}
+
+.carousel {
+    display: flex;
+    margin: auto;
+    width: 100%;
+
+}
+
+.carousel-item img {
+    display: flex;
+    margin: auto;
+    max-height: 370px;
+    width: auto;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: rgb(255, 255, 255);
+    color: #2540ac !important;
+}
+
+#logo {
+    margin-top: 10px;
+    height: 150px;
+    width: 600px;
+    margin-left: 330px;
+}
+
+section {
+    padding: 65px 0 80px 0;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.heading h2 {
+    text-transform: uppercase;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #0066cc;
+    margin: 0 auto 20px;
+}
+
+.divider.white {
+    background-color: white;
+}
+
+.divider.black {
+    background-color: black;
+}
+
+#presentation, #contact, #etudiants {
+    margin-top: 1px;
+    background-color: #0066cc;
+    color: white;
+}
+
+#formations .heading h2, #contacter .heading h2 {
+    color: #0066cc;
+}
+
+.etudiantDiv {
+    margin: auto;
+    width: 80%;
+}
+
+.etudiantBtn {
+    background-color: #dddddd;
+    border: 4px double #dddddd;
+    text-align: left;
+    font-size: 1.3em;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.etudiantBtn i {
+    color: #0066cc;
+}
+
+.etudiantBtn:hover {
+    background-color: #eeeeee;
+    border: 4px double #eeeeee;
+}
+
+.etudiantTxt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.etudiantTitle {
+    color: #ffcc00;
+}
+
+.contact-link {
+    text-align: center;
+    font-size: 2em;
+}
+
+.contact-link a {
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    transition: 0.2s;
+    border: 2px solid #ffcc00;
+}
+
+.contact-link:hover a {
+    background-color: white;
+}
+
+#fleche {
+    font-size: 0.8em;
+    background-color: white;
+    padding: 4px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.contact-link:hover #fleche {
+    background-color: #ffcc00;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 18%;
+  height: 18%;
+}
+
+footer {
+    background: #0066cc;
+    margin-top: 1px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div p {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div p a:hover {
+    color: white;
+    text-decoration: underline;
+}
