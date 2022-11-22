@@ -1,0 +1,19 @@
+.p-3 {
+  height: 100%;
+  border-radius: 15px;
+}
+
+.col-6 {
+  margin-bottom: 20px;
+}
+
+#titre {
+  margin-top: 30px;
+  color: #2540ac;
+}
+
+#definition {
+  text-align: center;
+  background-color: yellow;
+  margin-bottom: 80px;
+}
