@@ -415,3 +415,10 @@ body {
 .divider{
     height: 3px;
 }
+footer {
+    margin-top: 3%;
+}
+
+footer div p{
+    text-align: center;
+}
