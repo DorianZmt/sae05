@@ -1,0 +1,22 @@
+header{
+    text-align: justify;
+    padding-left: 5%;
+    margin-right: 2%;
+}
+.tableau_horaires{
+    margin-top: 5%;
+    margin-left: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 800px;
+    width: 60%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+    box-shadow: 10px 15px 25px rgb(192, 191, 191); 
+}
+
+.tableau_horaires h2{
+    padding-left: 27%;
+}
