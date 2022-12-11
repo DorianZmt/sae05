@@ -1,23 +1,23 @@
 .p-3 {
-  height: 100%;
-  border-radius: 15px;
-}
-
-.col-6 {
-  margin-bottom: 20px;
-}
-
-#page {
-  margin-bottom: 30px;
-}
-
-#titre {
-  margin-top: 20px;
-  color: #0066cc;
-}
-
-#definition {
-  text-align: center;
-  background-color: yellow;
-  margin-bottom: 80px;
-}
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  .col-6 {
+    margin-bottom: 20px;
+  }
+  
+  #page {
+    margin-bottom: 30px;
+  }
+  
+  #titre {
+    margin-top: 20px;
+    color: #0066cc;
+  }
+  
+  #definition {
+    text-align: center;
+    background-color: yellow;
+    margin-bottom: 80px;
+  }
