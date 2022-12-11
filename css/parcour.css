@@ -1,13 +1,11 @@
 h5{
     text-align: center;
-    font-style: bold;
     padding-top: 7px;
     height: 40px;
 }
 
 p{
     text-align: left;
-    font-style: bold;
 }
 
 div{
@@ -415,6 +413,7 @@ body {
 .divider{
     height: 3px;
 }
+
 footer {
     margin-top: 3%;
 }
