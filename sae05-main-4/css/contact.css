@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tout {
+    background-color: rgb(242, 242, 242);
+}
+.titre_contact{
+    color: #FF9900;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#info_contact{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 90%;
+}
+#form_contact{
+    width: 70%;
+}
+#info_contact h2{
+    font-size: 25px;
+}
+#info_contact p{
+    font-size: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100 vh;
+    width: 100%; 
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    width: 60%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+    box-shadow: 10px 15px 25px rgb(192, 191, 191);
+}
+
+#name,
+#email {
+    width: 60%;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    outline: none;
+    background-color: rgb(112, 112, 112);
+    color: #fff;
+}
+
+#name::placeholder,
+#email::placeholder {
+    color: #fff;
+}
+
+#textBox {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    background-color: rgb(112, 112, 112);
+    color: #fff;
+}
+
+#textBox::placeholder {
+    color: #fff;
+}
+
+input[type=submit] {
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(98, 98, 98);
+    color:#fff;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+}
+
+#map {
+    margin-top: 5px;
+    margin-left: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 60%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+    box-shadow: 10px 15px 25px rgb(192, 191, 191);  
+}
+
+iframe {
+    width: 90%;
+    height: 200%;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+#page {
+    margin-bottom: 60px;
+}

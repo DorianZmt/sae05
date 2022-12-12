@@ -1,0 +1,27 @@
+#page {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#header{
+    text-align: justify;
+    padding-left: 5%;
+    margin-right: 2%;
+}
+
+.tableau_horaires{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgb(217, 217, 217);
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .tableau_horaires {
+        width: 60%;
+        border-radius: 20px;
+        box-shadow: 10px 15px 25px rgb(192, 191, 191); 
+    }
+}
