@@ -1,0 +1,412 @@
+h5{
+    text-align: center;
+    padding-top: 7px;
+    height: 40px;
+}
+
+p{
+    text-align: left;
+}
+
+div{
+    background: content-box;
+}
+
+.row {
+    border-radius: 15px;
+}
+
+.row h5 {
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.row div {
+    margin: 20px;
+}
+
+#comp1{
+    background-color: rgb(197, 130, 133);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+
+#comp1 div p{
+    text-align: center;
+}
+#comp1 div{
+    margin-top: -0.5%;
+    border: 10px;
+}
+#comp1 #text1{
+    background-color :rgba(244, 196, 199, 0.87);
+}
+#comp1 #text1 p{
+    margin-top: 5px;
+}
+#comp1 #text2{
+    margin-left: -2%;
+    background-color :rgba(244, 196, 199, 0.87);
+}
+#comp1 #text2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#comp1 #text3{
+    margin-left: -2%;
+    background-color :rgba(244, 196, 199, 0.87);
+
+}
+#comp1 #text3 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#comp2{
+    background-color: rgb(247, 119, 102);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+
+#comp2 div p{
+
+    text-align: center;
+}
+
+#comp2 div{
+    margin-top: -0.5%;
+    border: 10px,
+}
+
+#comp2 #text1{
+    background-color :rgba(250, 205, 194, 0.87);
+
+}
+#comp2 #text1 p{
+    margin-top: 5px;
+}
+
+#comp2 #text2{
+    margin-left: -2%;
+    background-color :rgba(250, 205, 194, 0.87);
+}
+#comp2 #text2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+#comp2 #text3{
+    margin-left: -2%;
+    background-color :rgba(250, 205, 194, 0.87);
+
+}
+#comp2 #text3 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#comp3{
+    background-color: rgba(245, 210, 56, 0.808);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+
+#comp3 div p{
+
+    text-align: center;
+}
+
+#comp3 div{
+    margin-top: -0.5%;
+    border: 10px,
+}
+
+#comp3 #text1{
+    background-color :rgba(241, 230, 177, 0.808);
+
+}
+#comp3 #text1 p{
+    margin-top: 5px;
+}
+
+#comp3 #text2{
+    margin-left: -2%;
+    background-color :rgba(241, 230, 177, 0.808);
+}
+
+#comp3 #text2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#comp4{
+    background-color: rgb(97, 145, 85);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+
+#comp4 div p{
+    text-align: center;
+}
+
+#comp4 div{
+    margin-top: -0.5%;
+    border: 10px,
+}
+
+#comp4 #text1{
+    background-color :rgb(177, 199, 156);
+
+}
+
+#comp4 #text1 p{
+    margin-top: 5px;
+}
+
+#comp4 #text2{
+    margin-left: -2%;
+    background-color :rgb(177, 199, 156);
+}
+
+#comp4 #text2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#comp5{
+    background-color: rgb(115, 116, 196);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+
+#comp5 div p{
+    text-align: center;
+}
+
+#comp5 div{
+    margin-top: -0.5%;
+    border: 10px,
+}
+
+#comp5 #text1{
+    background-color :rgb(172, 168, 230);
+}
+#comp5 #text1 p{
+    margin-top: 5px;
+}
+
+#comp5 #text2{
+    margin-left: -2%;
+    background-color :rgb(172, 168, 230);
+}
+#comp5 #text2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#comp6{
+    background-color: rgb(238, 124, 158);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+
+#comp6 div p{
+    text-align: center;
+}
+
+#comp6 div{
+    margin-top: -0.5%;
+    border: 10px,
+}
+
+#comp6 #text1{
+    background-color :rgb(233, 194, 220);
+
+}
+#comp6 #text1 p{
+    margin-top: 5px;
+}
+
+#comp6 #text2{
+    margin-left: -2%;
+    background-color :rgb(233, 194, 220);
+
+
+}
+#comp6 #text2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+#comp6 #text3{
+    margin-left: -2%;
+    background-color :rgb(233, 194, 220);
+
+}
+#comp6 #text3 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+body {
+    height: 100vh;
+    width:100%;
+    background-position: top;
+    background-size: cover;
+}
+
+#comp{
+    padding-top: 100px;
+}
+
+#parcours{
+    padding-left: 50%;
+
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.536);
+    opacity: 0%;
+    top: -10px;
+    height: 110%;
+    width:100%;
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    height: 600PX;
+    width:800PX;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    animation-name: modalOpening;
+    animation-duration: 1s;
+}
+
+.modal h5{
+    padding-left: 20%;
+
+}
+
+.modal p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@keyframes modalOpening{
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 100%;
+    }
+}
+
+#open {
+    margin-top:20px;
+    position: absolute;
+    transform: translate(-45%, -45%);
+    padding: 20px 20px;
+    background-color: rgba(245, 235, 235, 0.157);
+    border: 3px solid #000;
+    font-weight:800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#open:hover{
+    transform: translate(-50%, -50%) scale(120%);
+    background-color: #000;
+    color: #fff;
+}
+
+#close{
+    position: absolute; 
+    top: 60px;
+    right:60px;
+    padding: 5px;
+    background: transparent;
+    border:1px solid #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    color:#fff;
+    border-radius:4px;
+}
+
+#close:hover{
+    background: #fff;
+    color: #000;
+    transform: scale(130%);
+}
+
+.modal-title{
+    margin: 20px 0;
+    font-size:30px;
+    text-align: left;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+.modal-p{
+    text-align: justify;
+    font-size: 15px;
+
+}
+
+#animation-title{
+    text-align:center;
+    animation-name: title;
+    animation-duration: 3s;
+}
+
+@keyframes title{
+
+    from {
+        transform: translateX(300px);
+    }
+
+    50%{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+#titre {
+    margin-top: 1.5%;
+    color: #0066cc;
+}
+
+.divider{
+    height: 3px;
+}
+
+footer {
+    margin-top: 3%;
+}
+
+footer div p{
+    text-align: center;
+}
